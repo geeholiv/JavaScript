@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício C</title>
+</head>
+<body>
+    <script>
+        //lê os dados de entrada
+        let produto = Number(prompt("Preço do produto R$: "));
+        //calculo opcoes de pagamento
+        let multiplicacao = produto * 0.10;
+        let avista = produto - multiplicacao;
+        let divisao = produto / 3;
+        //exibir resultados
+        alert("Preço do produto R$: " + produto.toFixed(2) + "\nÀ vista R$: " + avista.toFixed(2) + "\nParcelado em 3x de R$: " + divisao.toFixed(2));
+    </script>
+    
+</body>
+</html>
