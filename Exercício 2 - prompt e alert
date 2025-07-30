@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <script>
+        let P = Number(prompt("Camiseta P|R$10.00: "));
+        let M = Number(prompt("Camiseta M|R$12.00: "));
+        let G =  Number(prompt("Camiseta G|R$15.00: "));
+
+        let multi1 = P * 10.00;
+        let multi2 = M * 12.00;
+        let multi3 = G * 15.00;
+        let total = multi1 + multi2 + multi3;
+
+        alert("Camiseta P|R$10.00: " + P + "\nCamiseta M|R$12.00: " + M + "\nCamiseta G|R$15.00: " + G + "\nValor a ser pago: " + total.toFixed(2));
+
+    </script>
+    
+</body>
+</html>
