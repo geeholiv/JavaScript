@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <script>
+        let precolitro = Number(prompt("Preço do litro da gasolina R$: "));
+        let pagamento = Number(prompt("Valor do pagamento R$: "));
+
+        let divisao = pagamento / precolitro;
+
+        alert("Preço do litro da gasolina R$: " + precolitro.toFixed(2) + "\nValor do pagamento: " + pagamento.toFixed(2) + "\nLitros de abastecimento: " + divisao);
+    </script>
+    
+</body>
+</html>
