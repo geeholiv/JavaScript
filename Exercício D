@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício D</title>
+</head>
+<body>
+    <script>
+      //lê os dados de entrada
+      let metros = Number(prompt("Valor em metros: "));
+      //calcular metros para cm
+      let multiplicacao = metros * 100;
+      //exibir resultados
+      alert("Valor em metros: " + metros + "\nValor em centímetros: " + multiplicacao);
+
+    </script>
+    
+</body>
+</html>
