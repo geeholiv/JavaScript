@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício E</title>
+</head>
+<body>
+    <script>
+        let valorhora = Number(prompt("Valor da hora: "));
+        let horastrabalhadas = Number(prompt("Horas trabalhadas no mês: "));
+
+        let multiplicacao = horastrabalhadas * valorhora;
+
+        alert("Valor da hora: " + valorhora + "\nHoras trabalhadas no mês: " + horastrabalhadas + "\nSalário: " + multiplicacao);
+        
+
+    </script>
+    
+</body>
+</html>
