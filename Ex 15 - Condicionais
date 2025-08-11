@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 15</title>
+</head>
+<body>
+    <script>
+        let idade = parseInt(prompt("Digite sua idade:"));
+        let preco = 100; 
+        
+        if (idade <= 12) {
+            desconto = 0.5; 
+        } else if (idade >= 60) {
+            desconto = 0.3; 
+        } else {
+            desconto = 0; 
+        }
+        let precoFinal = preco - (preco * desconto);
+        document.write("Preço final com desconto: R$ " + precoFinal.toFixed(2));
+
+    </script>
+    
+</body>
+</html>
