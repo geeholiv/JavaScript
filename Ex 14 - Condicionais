@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 14</title>
+</head>
+<body>
+    <script>
+        let idade = parseInt(prompt("Digite sua idade:"));
+        let temDocumento = prompt("Você tem documento? (sim/não)").toLowerCase();
+        
+        if (idade >= 18 && temDocumento === "sim") {
+            document.write("Acesso permitido.");
+        } else {
+            document.write("Acesso negado.");
+        }
+
+    </script>
+    
+</body>
+</html>
