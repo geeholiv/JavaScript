@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Par ou Ímpar</title>
+</head>
+<body>
+    <h1>Verificar se o número é par ou ímpar</h1>
+    <script>
+        let numero = parseInt(prompt("Digite um número inteiro:"));
+
+        if (numero % 2 === 0) {
+            document.Write("O número é par.");
+        } else {
+            document.Write("O número é ímpar.");
+        }
+    </script>
+</body>
+</html>
