@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex 4</title>
+</head>
+<body>
+    <script>
+        const senhaCorreta = "12345";
+        let senhaDigitada = prompt("Digite a senha:");
+
+        if (senhaDigitada === senhaCorreta) {
+            document.Write("Acesso permitido!");
+        } else {
+            document.Write("Senha incorreta. Acesso negado!");
+        }
+    </script>
+</body>
+
