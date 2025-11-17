@@ -1,0 +1,17 @@
+// Crie o objeto pessoa
+let pessoa = {
+    nome: 'Geovanna',
+    idade: '16',
+    cidade: 'Votorantim'
+};
+
+// Exiba as propriedades
+console.log("Nome:", pessoa.nome);
+console.log("Idade:", pessoa.idade);
+console.log("Cidade:", pessoa.cidade);
+
+// Modifique a idade
+pessoa.idade = 26;
+
+// Exiba o objeto
+console.log("Pessoa:", pessoa);
